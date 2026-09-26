@@ -1,0 +1,10 @@
+*CONSTRAINTS: RULE*
+------------------------------------
+1. NOT NULL	      :COL VALUE CAN NOT BE NULL; WHILE INSERTING THE DATA - MUST ENTER
+2. DEFAULT NULL	  :OPTIONAL
+3. DEFAULT VALUE  :WHILE INSERTING THE DATA USING INSERT STATEMENT, WE NEED NOT TO GIVE THE VALUE
+4. PRIMARY KEY	  :WILL NOT ALLOW DUPLICATE VALUES, AND NULL VALUES. ONLY ONE PER TABLE; IF MULTIPLE COLS - IS CALLED COMPOSIT; 
+5. foreign key	  :fk will allow null values; but take not null; FK is a reference of another table PK; can be 'n' number of FK
+6. unique key	    :UK allows null value, but take not null,  can be 'n' number of
+7. check			    :range of values; condition specify; can be 'n' number of
+8. create index		:non-prime attributes - create as index so that you get the data faster; create index is for improving the performance while fetching data
