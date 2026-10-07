@@ -1,4 +1,4 @@
-package com.dailytasks;
+package com.Student;
 
 public class DailyTasks07 {
 	static int add(int a,int b){
@@ -29,4 +29,3 @@ public class DailyTasks07 {
 	}
 
 }
-
